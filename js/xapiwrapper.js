@@ -117,10 +117,10 @@ function isDate(date) {
     var Config = function()
     {
         var conf = {};
-        conf['endpoint'] = "http://localhost:8000/xapi/";
+        conf['endpoint'] = "https://cloud.scorm.com/lrs/QYB0N1981O/sandbox/";
         //try
         //{
-            conf['auth'] = "Basic " + toBase64('tom:1234');
+            conf['auth'] = "Basic " + toBase64('u32f5OtjLTB47E535Cw:gsHCJUoBmUE0Bly4r-E');
         //}
         //catch (e)
         //{
